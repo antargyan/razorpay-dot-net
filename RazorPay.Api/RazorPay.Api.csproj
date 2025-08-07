@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <PackageId>RazorPay.Api</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Sameer Dube</Authors>
+    <Description>RazorPay API client library for .NET Standard 2.1</Description>
+    <PackageTags>razorpay;api;payments;client</PackageTags>
+    <RepositoryUrl>https://github.com/antargyan/razorpay-dot-net</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
