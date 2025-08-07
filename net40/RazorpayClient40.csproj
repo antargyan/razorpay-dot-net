@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Razorpay.Api</RootNamespace>
     <AssemblyName>Razorpay</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
@@ -142,13 +144,13 @@
     </Compile>
     <Compile Include="..\src\Item.cs">
       <Link>Item.cs</Link>
-     </Compile>
+    </Compile>
     <Compile Include="..\src\Account.cs">
       <Link>Account.cs</Link>
-    </Compile>  
+    </Compile>
     <Compile Include="..\src\Stakeholder.cs">
       <Link>Stakeholder.cs</Link>
-    </Compile>  
+    </Compile>
     <Compile Include="..\src\Webhook.cs">
       <Link>Webhook.cs</Link>
     </Compile>
@@ -165,18 +167,18 @@
     <Compile Include="..\src\HttpMethod.cs">
       <Link>HttpMethod.cs</Link>
     </Compile>
-    <Compile Include="..\src\OAuthTokenClient.cs" >
+    <Compile Include="..\src\OAuthTokenClient.cs">
       <Link>OAuthTokenClient.cs</Link>
-    </Compile> 
-    <Compile Include="..\src\PayloadValidator.cs" >
+    </Compile>
+    <Compile Include="..\src\PayloadValidator.cs">
       <Link>PayloadValidator.cs</Link>
-    </Compile> 
-    <Compile Include="..\src\ValidationConfig.cs" >
+    </Compile>
+    <Compile Include="..\src\ValidationConfig.cs">
       <Link>ValidationConfig.cs</Link>
-    </Compile> 
-    <Compile Include="..\src\ValidationType.cs" >
+    </Compile>
+    <Compile Include="..\src\ValidationType.cs">
       <Link>ValidationType.cs</Link>
-    </Compile> 
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
